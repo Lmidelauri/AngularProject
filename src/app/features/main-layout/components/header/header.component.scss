@@ -1,0 +1,44 @@
+header{
+  text-transform: uppercase;
+  font-weight: bold;
+
+  .logo{
+    padding: 4px;
+    img{
+      height: 5rem;
+
+    }
+  }
+  .cart{
+    position: relative;
+    text-decoration: none;
+    img{
+      height: 3rem;
+    }
+
+    .cart-logo{
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      justify-content: center;
+      top:0;
+      right: 0;
+      background-color: #6c9d6c;
+      color: #ffffff;
+      //
+      border-radius: 50%;
+      font-size: 15px;
+      font-weight: bold;
+      display: flex;
+      margin: auto;
+    }
+
+    p{
+    padding: 2px 2px 2px 2px ;
+
+    }
+  }
+
+}
+
+
